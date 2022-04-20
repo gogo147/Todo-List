@@ -7,11 +7,7 @@
 }
 
 body {
-  background: linear-gradient(
-    45deg,
-    rgb(226, 54, 105) 0%,
-    rgb(120, 68, 179) 100%
-  );
+  background-color: red;
   height: 100vh;
   width: 100%;
 }
