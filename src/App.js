@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header.js';
 import Form from './components/Form';
+import TodosList from './components/TodosList';
 
 function App() {
   const [input, setInput] = useState('');
@@ -19,6 +20,9 @@ function App() {
             todos={todos}
             setTodos={setTodos}
           />
+        </div>
+        <div>
+          <TodosList todos={todos} setTodos={setTodos} />
         </div>
       </div>
     </div>
