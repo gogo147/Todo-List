@@ -32,13 +32,13 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
                 />
                 <div>
                     <button className='button-complete task-button' onClick={() => handleComplete(todo)}>
-                        a
+                        ✅
                     </button>
                     <button className='button-edit task-button' onClick={() => handleEdit(todo)}>
-                        b
+                        ✏️
                     </button>
                     <button className='button-delete task-button' onClick={() => handleDelete(todo)}>
-                        c
+                        ❌
                     </button>
                 </div>
             </li>
